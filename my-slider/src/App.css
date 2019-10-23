@@ -1,22 +1,57 @@
-.App {
-  text-align: center;
+.sliderRootContainer {
+  text-align:center;
+  display:flex;
+  flex-direction:row;
+  width: 100vw;
+  height:60vh;
 }
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.sliderMainContainer{
+  border: 2px solid #f2f2f2;
+  color: #f2f2f2;
+  box-shadow:black 0px 0px 10px;
+  text-shadow:black 0px 0px 10px;
+  display:flex;
+  align-items:flex-end;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: scale(0.8);
+  opacity: 0.9;
+  transition: opacity 300ms linear, transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+.sliderMainContainer:hover{
+  transform: scale(0.9);
+  cursor:pointer;
+  opacity:1;
+}
+.sliderDisplay{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  overflow:hidden;
+  
+}
+.nav{
+  
+  justify-content: center;
+  align-items:center;
+}
+.navBtn{
+  padding:0.8rem;
+  background-color:white;
+  border:none;
+  color:limegreen;
+  font-size:1.5rem;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-radius:50%;
+  border: 2px solid limegreen;
+}
+.navBtn:hover{
+  color:white;
+  background-color: rgba(50, 205, 50, 0.4);
+  box-shadow: limegreen 0px 0px 3px;
 }
 
-.App-link {
-  color: #09d3ac;
-}
