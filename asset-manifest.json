@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/my-slider/static/css/main.f37e20d2.chunk.css",
+    "main.js": "/my-slider/static/js/main.c0e43e0c.chunk.js",
+    "main.js.map": "/my-slider/static/js/main.c0e43e0c.chunk.js.map",
+    "runtime-main.js": "/my-slider/static/js/runtime-main.5f98f693.js",
+    "runtime-main.js.map": "/my-slider/static/js/runtime-main.5f98f693.js.map",
+    "static/css/2.0624914a.chunk.css": "/my-slider/static/css/2.0624914a.chunk.css",
+    "static/js/2.36262224.chunk.js": "/my-slider/static/js/2.36262224.chunk.js",
+    "static/js/2.36262224.chunk.js.map": "/my-slider/static/js/2.36262224.chunk.js.map",
+    "index.html": "/my-slider/index.html",
+    "precache-manifest.542236aba47c4e6496699787e320d1ca.js": "/my-slider/precache-manifest.542236aba47c4e6496699787e320d1ca.js",
+    "service-worker.js": "/my-slider/service-worker.js",
+    "static/css/2.0624914a.chunk.css.map": "/my-slider/static/css/2.0624914a.chunk.css.map",
+    "static/css/main.f37e20d2.chunk.css.map": "/my-slider/static/css/main.f37e20d2.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5f98f693.js",
+    "static/css/2.0624914a.chunk.css",
+    "static/js/2.36262224.chunk.js",
+    "static/css/main.f37e20d2.chunk.css",
+    "static/js/main.c0e43e0c.chunk.js"
+  ]
+}
