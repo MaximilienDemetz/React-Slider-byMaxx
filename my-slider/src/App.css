@@ -33,25 +33,29 @@
   
 }
 .nav{
-  
-  justify-content: center;
   align-items:center;
 }
+.leftNav{
+  justify-content: flex-end;
+}
+.rightNav{
+  justify-content: flex-start;
+}
 .navBtn{
-  padding:0.8rem;
   background-color:white;
   border:none;
   color:limegreen;
-  font-size:1.5rem;
+  font-size:2rem;
+  font-weight:bold;
   display:flex;
   justify-content:center;
   align-items:center;
   border-radius:50%;
   border: 2px solid limegreen;
+  padding: 0.1rem 0.8rem;
 }
 .navBtn:hover{
   color:white;
   background-color: rgba(50, 205, 50, 0.4);
   box-shadow: limegreen 0px 0px 3px;
 }
-

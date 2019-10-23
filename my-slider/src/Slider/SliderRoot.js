@@ -53,7 +53,7 @@ class SliderMax extends Component{
                 <div className='sliderRootContainer'>
                     <section className='nav leftNav col-1' >
                         <button id="leftNavBtn" className='navBtn'onClick={this.navClick}>
-                            &#8249;
+                            &#60;
                         </button>
                     </section>
                
@@ -65,7 +65,7 @@ class SliderMax extends Component{
 
                     <section className='nav rightNav col-1'>
                         <button id="rightNavBtn" className='navBtn' onClick={this.navClick}>
-                            &#8250;
+                            &#62;
                         </button>
                     </section>
                 </div>
